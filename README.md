@@ -399,31 +399,406 @@ Si este proyecto te ayudó, considera:
 
 ## 🇬🇧 English
 
+Here is the complete and exact translation of your `README.md` content into English, maintaining all formatting, links, images, layout, and HTML tags without summarizing anything. You can copy and paste this directly into your GitHub repository:
+
+```markdown
 ### 📖 What is unlockBOOTLOADER?
 
-**unlockBOOTLOADER** is a command-line tool that automates and optimizes the Xiaomi bootloader unlock request process using ultra-precise NTP synchronization and advanced network optimizations.
+**unlockBOOTLOADER** is a command-line tool that automates and optimizes the Xiaomi bootloader unlock request process. 
+
+It uses:
+- ⏰ Ultra-precise NTP synchronization with atomic servers
+- 🚀 Advanced network optimizations (TLS pre-warming, Keep-Alive)
+- 🎯 Perfect timing to maximize success probabilities
 
 ### ✨ Features
 
-- 🎯 Ultra-precise NTP sync with atomic servers
-- ⚡ Advanced network optimizations (TLS pre-warming, Keep-Alive)
-- 🔥 Automated request burst at the exact critical moment
-- 📊 Real-time countdown display
-- 🎨 Professional colorful UI
-- 📝 Millisecond-precision logging
-- 🛡️ Robust error handling
+| Feature | Description |
+|---------|-------------|
+| 🎯 **NTP Synchronization** | Atomic servers: Google, Cloudflare, NIST, Windows |
+| ⚡ **Network Optimization** | TLS pre-warming, HTTP/1.1 Keep-Alive, aggressive timeouts |
+| 🔥 **Automated Burst** | Multiple requests at the exact moment (00:00:00 Beijing) |
+| 📊 **Real-Time Countdown** | HH:MM:SS display until the critical moment |
+| 🎨 **Professional UI** | Colorful interface with emojis and ASCII art |
+| 📝 **Detailed Logging** | Timestamps with millisecond precision |
+| 🛡️ **Error Handling** | Automatic recovery from network failures |
+| 📁 **Automatic Paths** | Works from any location |
 
-### 🚀 Quick Start
+### 🚀 Installation
 
+#### Prerequisites
 ```bash
-git clone https://github.com/kevxngg/unlockBOOTLOADER.git
-cd unlockBOOTLOADER
-pip install -r requirements.txt
-python unlockBOOTLOADER.py
+- Python 3.7 or higher
+- pip (included with Python)
+- Firefox Browser
+- Google Chrome Browser
+- Stable Internet connection
+
 ```
 
-For detailed instructions, see the Spanish section above.
+#### Download
 
+1. Download `unlockBOOTLOADER.zip` from [Releases](https://github.com/kevxngg/unlockBOOTLOADER/releases)
+2. Unzip the file
+
+### 📝 Complete Usage Guide
+
+## Step 1: Create Configuration Files
+
+In the **folder** created when you unzipped `unlockBOOTLOADER.zip`, create these two files:
+
+```
+token.txt
+timeshift.txt
+
+```
+
+You will open the **token.txt** file with **Notepad** and edit it as follows:
+
+```text
+1
+2
+3
+4
+
+```
+
+You will put those rows of numbers.
+
+And you will also open the **timeshift.txt** file and edit it like this:
+
+```text
+300
+280
+260
+240
+
+```
+
+## Step 2: Obtain your Session Tokens
+
+There are **TWO methods** to extract the necessary tokens:
+
+## Firefox: With the Cookie-Editor extension
+
+1. Open Firefox and install the "[Cookie Editor](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)" extension
+<div align="left">
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/380832c4-b82c-420d-b3d7-736f11a0dc78" />
+</div>
+
+Click on **Add to Firefox**
+
+<div align="left">
+<img width="404" height="274" alt="image" src="https://github.com/user-attachments/assets/08297eb1-d535-4491-98f2-5b12cfc583d3" />
+</div>
+
+Then click on **Add**
+
+Once added, this options **Sidebar** will appear
+
+<div align="left">
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/7fae826d-a40c-45af-889c-f9c1636925bd" />
+</div>
+
+3. Go to: **https://c.mi.com/global/**
+4. Log in with your Mi account and wait for all the content to load
+<div align="left">
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/8e8eb1db-ee62-4bf7-b665-03898716e17e" />
+</div>
+5. Open Cookie Editor (icon on the left sidebar)
+<div align="left">
+<img width="396" height="713" alt="image" src="https://github.com/user-attachments/assets/bda73b2d-5734-4f05-96be-2a974669ff31" />
+</div>
+6. Search for the cookie: `new_bbs_serviceToken`
+<div align="left">
+<img width="395" height="248" alt="image" src="https://github.com/user-attachments/assets/c3ae3942-0480-41aa-a428-e9445904653d" />
+   
+<img width="413" height="411" alt="image" src="https://github.com/user-attachments/assets/c8f79815-f26e-488a-a28d-014702e88443" />
+</div>
+7. Copy the **complete value** (it will be very long)
+<div align="left">
+<img width="397" height="414" alt="image" src="https://github.com/user-attachments/assets/e8e5d781-ff30-4792-a165-e05a1f38d51e" />
+</div>
+Right-click on the value, then press **Ctrl + A** to select all and then **Ctrl + C** to copy.
+8. Now you are going to open the **token.txt** file and paste that **token** on lines **1** and **3**, (delete the line number) it should look something like this:
+
+```
+token_example_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
+2
+token_example_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
+4
+
+```
+
+Press **Ctrl + S** and save.
+
+## Google Chrome: Javascript Function
+
+1. Go to: **https://c.mi.com/global/**
+2. Log in with your Mi account, **accept all Cookies** and wait for all your content to load.
+3. Paste this code **into the address bar (URL)**:
+
+```javascript
+javascript :(function(){var token=document.cookie.match(/popRunToken=([^;]+)/);if(token){prompt("Copy the token:", token[1]);}else{alert("Token not found");}})()
+
+```
+
+<div align="left">
+<img width="1411" height="853" alt="image" src="https://github.com/user-attachments/assets/67f00ff1-6297-4648-91ac-ac04a7b1f7cf" />
+</div>
+
+4. **⚠️ IMPORTANT**: Remove the space between `javascript` and `:`
+5. Press **Enter**
+<div align="left">
+<img width="469" height="211" alt="image" src="https://github.com/user-attachments/assets/86ac3903-c097-45a8-a501-9a15c0634e15" />
+</div>
+6. Press **Ctrl + C** and copy the token from the popup.
+7. Now you will paste that **token** into the **token.txt** file on lines **2** and **4** (delete the line number) and it would look something like this:
+
+```
+token_example_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
+token_example_googleNiTl2rmQWNdB7pABjG7Ac1twOzL%2F%2BD6nbR1D%2BUwg%2BTbJ%2B8H%2
+token_example_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
+token_example_googleNiTl2rmQWNdB7pABjG7Ac1twOzL%2F%2BD6nbR1D%2BUwg%2BTbJ%2B8H%2
+
+```
+
+### ⚙️ Timeshift Configuration
+
+The `timeshift` is **CRITICAL** for success. If you have multiple accounts/tokens (e.g. 4 tokens), we recommend using a "staggered burst" strategy to maximize your chances.
+
+Put these 4 values in your `timeshift.txt` file (one value per line in the same order) adjusting them according to your location:
+
+| Location/Connection | Typical Latency | Recommended Values (timeshift.txt) | Notes |
+| --- | --- | --- | --- |
+| 🌎 Latin America (Wi-Fi) | 120-200ms | **340, 320, 300, 280** | Covers Wi-Fi ping variations |
+| 🌎 Latin America (Fiber) | 80-120ms | **300, 280, 260, 240** | Optimal for very fast connections |
+| 🌍 Europe | 150-250ms | **360, 340, 320, 300** | Compensates physical distance to Asia |
+| 🌏 Asia | 20-80ms | **260, 240, 220, 200** | Low values due to server proximity |
+| 🏢 Corporate Connection | Variable | **350, 330, 310, 290** | Compensates Firewall/VPN delays |
+
+**🎯 The best trick to adjust your strategy:**
+When you run the script, pay close attention to this line in your console:
+
+> `⏱️ Sincronizando con time.google.com... ✓ (latencia: 290.5ms)`
+
+Use that number as your center point. If the console shows **290ms**, you should create a block surrounding it, for example: **310, 300, 290, 280**.
+
+**🛠️ Troubleshooting:**
+
+* If the server tells you "quota exhausted" but your response arrived **before** 00:00:00 → You are shooting too early. **Subtract 20ms** from your entire block of values.
+* If you arrive at 00:00:00 but someone beats you to the spot → You are arriving late. **Add 20ms** to your entire block of values.
+
+## Step 3: Run the Script from Windows
+
+The fastest and easiest way to run the script is by opening the command prompt (CMD) directly from the project folder.
+
+1. Open File Explorer and go to the folder where you downloaded and unzipped the project (where the `unlockBOOTLOADER.py`, `token.txt`, and `timeshift.txt` files are).
+2. Click on the **address bar** at the top (where the folder path is seen, it will be highlighted in blue).
+3. Delete that entire path, type the word **`cmd`** and press the **Enter** key.
+<div align="left">
+<img width="1125" height="667" alt="image" src="https://github.com/user-attachments/assets/9a84af0a-ac0f-4be0-9d23-607ef41d27c9" />
+</div>
+4. A black console window (Command Prompt) will open, already located exactly in that folder.
+<div align="left">
+<img width="979" height="646" alt="image" src="https://github.com/user-attachments/assets/fd0980ae-068e-4cb5-b99d-761d8f499703" />
+</div>
+5. To start the program, simply type the following command and press **Enter**:
+```bash
+python unlockBOOTLOADER.py
+
+```
+
+
+
+> **💡 PRO TIP: Multiple Execution (4 Token Strategy)**
+> Since you have 4 tokens configured in your `token.txt` file and 4 staggered latency values in `timeshift.txt`, you can maximize your chances of success by running them at the same time:
+> 1. Repeat [Step 3](https://www.google.com/search?q=https://github.com/kevxngg/unlockBOOTLOADER/blob/main/README.md%23step-3-run-the-script-from-windows) to open **4 different CMD windows**.
+> 2. Type `python unlockBOOTLOADER.py` and press Enter in each of them.
+> 3. When the script prompts you for the **"Token line number"**, enter `1` in the first window, `2` in the second, `3` in the third, and `4` in the fourth.
+> 
+> 
+> This way, you will have 4 processes running in parallel waiting for midnight. The script will fire the 4 automatic requests with the 4 different offset times you configured, perfectly covering all possible margins of your connection and ensuring that one arrives at the exact millisecond.
+
+## Step 4: Follow the Instructions
+
+1. Enter the token **line number**
+2. The script will show:
+* ✅ Account status
+* ⏰ NTP Synchronization
+* 📊 Countdown to Beijing midnight
+* 🚀 Request results
+
+
+
+### 📸 Preview
+
+<img width="983" height="959" alt="image" src="https://github.com/user-attachments/assets/a1da14ae-ba8d-4eae-bde9-3fd61e3a2c1f" />
+
+### ❓ Frequently Asked Questions (FAQ)
+
+<details>
+<summary><b>Does this script unlock my bootloader directly?</b></summary>
+
+**No.** This script only optimizes the authorization request **timing** to Xiaomi's servers. After receiving authorization, you still need to use the official **Mi Unlock Tool** to physically unlock the bootloader.
+
+</details>
+
+<details>
+<summary><b>Why do I need a timeshift?</b></summary>
+
+Xiaomi resets daily quotas at **00:00:00 Beijing time**. Due to network latency (your location → servers in Asia), your request takes time to arrive. The timeshift compensates for that delay so it arrives exactly at 00:00:00.
+
+</details>
+
+<details>
+<summary><b>How many attempts do I have?</b></summary>
+
+Generally **one per day** per account. If you fail, wait 24 hours. Some users report 168-hour (7 days) bans if abused.
+
+</details>
+
+<details>
+<summary><b>Does it work on all Xiaomi / Redmi / POCO devices?</b></summary>
+
+Yes, but due to **Xiaomi's new security policies (HyperOS)**, you must meet very strict requirements and follow a specific order:
+
+1. **Account age:** Your Mi Account must have been created **more than 30 days ago** and be continuously active.
+2. **Global Region:** This script applies to **Global** region accounts and devices. (The Chinese ROM has a different system requiring Level 5 in their forum).
+3. **Correct process order:**
+* **Step 1 (Authorization):** Use this script to secure the spot on Xiaomi servers at midnight.
+* **Step 2 (Binding):** Once the script shows "🎉 AUTHORIZATION GRANTED!", go to your phone (*Settings > Developer Options > Mi Unlock Status*) and **bind** your account to the device.
+* **Step 3 (Unlocking):** Use the official *Mi Unlock Tool* on your PC to perform the physical bootloader unlock (the tool might ask you to wait 72 hours or more after binding).
+
+
+
+If you don't have the 30 days on your account or try to bind the phone before getting authorization with the script, Xiaomi servers will reject you.
+
+</details>
+
+<details>
+<summary><b>Is it safe to use this script?</b></summary>
+
+The code is **open-source** and you can review it. It contains no malware. However, using unofficial tools may violate Xiaomi's ToS. **Use at your own risk.**
+
+</details>
+
+<details>
+<summary><b>My token says "expired". What do I do?</b></summary>
+
+Tokens expire. Simply get a new one following the [extraction guide](https://www.google.com/search?q=%23step-1-obtain-your-session-tokens).
+
+</details>
+
+### ⚠️ Warnings and Disclaimer
+
+```
+⚠️  IMPORTANT - READ BEFORE USING
+
+✗ This script DOES NOT unlock your bootloader directly
+✗ It only optimizes the authorization request timing
+✓ You still need to use official Mi Unlock Tool afterwards
+✗ May violate Xiaomi's Terms of Service
+✗ DOES NOT guarantee success - only maximizes probabilities
+✗ Xiaomi may ban accounts detected using automation
+✗ Unlocking the bootloader ERASES all your data
+✗ May void your warranty
+✗ Use completely at your OWN RISK
+
+The author (@kevxngg) is NOT responsible for:
+- Banned accounts
+- Lost data
+- Voided warranties
+- Device issues
+
+```
+
+### 🛠️ Troubleshooting
+
+| Problem | Solution |
+| --- | --- |
+| ❌ "token.txt file not found" | Create `token.txt` in the **same folder** as the script |
+| ❌ "Expired token" | Get a new token (they expire every few hours) |
+| ❌ "Could not sync NTP" | Check your Internet connection / Firewall |
+| ❌ Always arrives late | **Decrease** the timeshift by 20ms |
+| ❌ Always arrives early | **Increase** the timeshift by 20ms |
+| ❌ "Global quota exhausted" | Wait 24 hours and try again |
+| ❌ Script can't find files in VSCode | Use version v2.1 which has path fixes |
+
+### 🤝 Contributing
+
+Contributions are welcome!
+
+1. **Fork** this repository
+2. Create a **Feature Branch** (`git checkout -b feature/NewImprovement`)
+3. **Commit** your changes (`git commit -m 'Add NewImprovement'`)
+4. **Push** to the Branch (`git push origin feature/NewImprovement`)
+5. Open a **Pull Request**
+
+#### Ideas for Contributing:
+
+* 🌐 Translations to other languages
+* 📊 Success statistics by region
+* 🎨 UI improvements
+* 🐛 Report/fix bugs
+* 📝 Improve documentation
+
+### 📜 Changelog
+
+#### v2.1.0 (2026-03-03)
+
+* ✅ Relative paths fix (works from any location)
+* ✅ Professional ASCII art banner
+* ✅ Integrated token extraction guide
+* ✅ Error message improvements
+* ✅ Working directory display
+
+#### v2.0.0 (2026-03-01)
+
+* ✅ Complete code refactoring
+* ✅ Type hints in functions
+* ✅ Real-time countdown
+* ✅ Multiple NTP servers
+* ✅ Latency display
+* ✅ UI with colors and emojis
+
+### 📄 License
+
+This project is under the **MIT License**. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for more details.
+
+```
+MIT License
+
+Copyright (c) 2026 kevxngg
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
+
+```
+
+### 👤 Author
+
+<div align="center">
+
+</div>
+
+### 🌟 Acknowledgments
+
+If this project helped you, consider:
+
+* ⭐ Giving it a **star** on GitHub
+* 🐛 Reporting **bugs** or suggesting **improvements**
+* 🤝 Contributing **code** or **documentation**
+* 📢 Sharing it with others who might need it
+
+### 📊 Project Statistics
+
+---
+
+```
+
+```
 ### 📄 License
 
 MIT License - See [LICENSE](LICENSE) file
