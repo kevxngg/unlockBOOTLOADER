@@ -65,7 +65,7 @@ Hay **DOS métodos** para extraer los tokens necesarios:
 
 1. Abre Firefox e instala la extensión "[Cookie Editor](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)"
    <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/380832c4-b82c-420d-b3d7-736f11a0dc78" />
-   Le das en **"Add to Firefox"**
+   **1.1**Le das en **"Add to Firefox"**
    
    <img width="404" height="274" alt="image" src="https://github.com/user-attachments/assets/08297eb1-d535-4491-98f2-5b12cfc583d3" />
    Luego le das en **Añadir**
