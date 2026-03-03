@@ -53,23 +53,17 @@ Utiliza:
 
 #### Descarga
 1. Descarga `unlockBOOTLOADER.zip` desde [Releases](https://github.com/kevxngg/unlockBOOTLOADER/releases)
-2. El script instalará dependencias automáticamente
+2. Descomprime el archivo 
 
 ### 📝 Guía de Uso Completa
 
 #### Paso 1: Crear Archivos de Configuración
 
-En la **misma carpeta** que `unlockBOOTLOADER.py`, crea:
+En la **carpeta** que se creo cuando descomprimiste `unlockBOOTLOADER.zip`, crea estos dos archivos:
 
-##### 📄 token.txt
 ```
-tu_token_muy_largo_aqui_A1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P6Q7R8S9T0U1V2W3X4Y5Z6
-```
-*Una línea por token. Si tienes múltiples cuentas, pon un token por línea.*
-
-##### 📄 timeshift.txt
-```
-300
+token.txt
+timeshift.txt
 ```
 *Valor en milisegundos. Ver [tabla de configuración](#️-configuración-del-timeshift).*
 
