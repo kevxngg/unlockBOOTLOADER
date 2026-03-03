@@ -224,55 +224,8 @@ La forma más rápida y sencilla de ejecutar el script es abriendo la consola de
 
 
 ### 📸 Vista Previa
+<img width="983" height="959" alt="image" src="https://github.com/user-attachments/assets/a1da14ae-ba8d-4eae-bde9-3fd61e3a2c1f" />
 
-```
-╔═══════════════════════════════════════════════════════════════════════╗
-║                                                                       ║
-║            unlockBOOTLOADER - Xiaomi Bootloader Unlock Optimizer     ║
-║                                                                       ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║   Version:     v2.1.0                                                 ║
-║   Author:      @kevxngg                                               ║
-║   GitHub:      https://github.com/kevxngg/unlockBOOTLOADER           ║
-║   Socials:     GitHub/Facebook/Instagram/Telegram: @kevxngg          ║
-╚═══════════════════════════════════════════════════════════════════════╝
-
-📂 Directorio de trabajo: C:\Users\Usuario\unlockBOOTLOADER
-
-----------------------------------------------------------------------
-✓ Encontrado: token.txt
-✓ Encontrado: timeshift.txt
-----------------------------------------------------------------------
-
-📋 Número de línea del token: 1
-
-----------------------------------------------------------------------
-✓ Configuración cargada
-----------------------------------------------------------------------
-
-🔑 Device ID: A1B2C3D4E5F67890...
-
-🔍 Consultando estado de la cuenta...
-----------------------------------------------------------------------
-✓ Cuenta elegible para solicitar desbloqueo
-----------------------------------------------------------------------
-
-╔═══════════════════════════════════════════════════════════════════╗
-║  ⏱️  SINCRONIZACIÓN NTP                                            ║
-╚═══════════════════════════════════════════════════════════════════╝
-⏱️  Sincronizando con time.google.com... ✓ (latencia: 45.2ms)
-📅 Hora Pekín: 2026-03-03 23:45:15.234
-
-╔═══════════════════════════════════════════════════════════════════╗
-║  ⏳ CONFIGURACIÓN DE TIMING                                        ║
-╚═══════════════════════════════════════════════════════════════════╝
-📍 Desfase de red: 300.00 ms
-🎯 Hora objetivo:  2026-03-04 00:00:00.700
-
-⏰ Esperando momento crítico... (mantén esta ventana abierta)
-
-⏱️  Tiempo restante: 00:14:42
-```
 
 ### ❓ Preguntas Frecuentes (FAQ)
 
