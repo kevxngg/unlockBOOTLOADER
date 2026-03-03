@@ -65,12 +65,12 @@ python unlockBOOTLOADER.py
 
 #### Paso 1: Obtener tu Token de Sesión
 
-Hay **DOS métodos** para extraer tu token:
+Hay **DOS métodos** para extraer tus tokens:
 
 ##### 🔧 Método 1: Cookie Editor (Firefox/Chrome)
 
 1. Instala la extensión "[Cookie Editor](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)"
-2. Ve a: **https://global.unlock.miui.com/**
+2. Ve a: **https://c.mi.com/global/**
 3. Inicia sesión con tu cuenta Mi
 4. Abre Cookie Editor (ícono en la barra)
 5. Busca la cookie: `new_bbs_serviceToken`
@@ -78,14 +78,14 @@ Hay **DOS métodos** para extraer tu token:
 
 ##### 💻 Método 2: JavaScript Console (Cualquier Navegador)
 
-1. Ve a: **https://global.unlock.miui.com/**
+1. Ve a: **https://c.mi.com/global/**
 2. Inicia sesión con tu cuenta Mi
 3. Presiona **F12** para abrir DevTools
 4. Ve a la pestaña **"Console"**
 5. Pega este código **en la barra de direcciones (URL)**:
 
 ```javascript
-javascript:(function(){var token=document.cookie.match(/serviceToken=([^;]+)/);if(token){prompt("Copia tu token:", token[1]);}else{alert("Token no encontrado. Asegúrate de estar logueado.");}})()
+javascript :(function(){var token=document.cookie.match(/serviceToken=([^;]+)/);if(token){prompt("Copia tu token:", token[1]);}else{alert("Token no encontrado. Asegúrate de estar logueado.");}})()
 ```
 
 6. **⚠️ IMPORTANTE**: Elimina el espacio entre `javascript` y `:` 
