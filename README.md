@@ -76,10 +76,11 @@ Hay **DOS métodos** para extraer los tokens necesarios:
    <div align="left">
      <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/380832c4-b82c-420d-b3d7-736f11a0dc78" />
    </div>
-   Le das en **Add to Firefox**
+Le das en **Add to Firefox**
    <div align="left">
      <img width="404" height="274" alt="image" src="https://github.com/user-attachments/assets/08297eb1-d535-4491-98f2-5b12cfc583d3" />
    </div>
+   
    Luego le das en **Añadir**
 
    Una vez añadido te saldra esta **Barra Lateral** de opciones
@@ -110,7 +111,7 @@ Hay **DOS métodos** para extraer los tokens necesarios:
    <div align="left">
      <img width="397" height="414" alt="image" src="https://github.com/user-attachments/assets/e8e5d781-ff30-4792-a165-e05a1f38d51e" />
    </div>
-  Click derecho sobre el valor, luego le das **Ctrl + A** para selecionar todo y luego **Ctrl + C** para copiar
+Click derecho sobre el valor, luego le das **Ctrl + A** para selecionar todo y luego **Ctrl + C** para copiar
 
 ##### Google Chrome: Funcion Javascript
 
