@@ -49,37 +49,29 @@ Utiliza:
 - Conexión a Internet estable
 ```
 
-#### Método 1: Git Clone (Recomendado)
-```bash
-git clone https://github.com/kevxngg/unlockBOOTLOADER.git
-cd unlockBOOTLOADER
-pip install -r requirements.txt
-python unlockBOOTLOADER.py
-```
-
-#### Método 2: Descarga Manual
-1. Descarga `unlockBOOTLOADER.py` desde [Releases](https://github.com/kevxngg/unlockBOOTLOADER/releases)
+#### Descarga
+1. Descarga `unlockBOOTLOADER.zip` desde [Releases](https://github.com/kevxngg/unlockBOOTLOADER/releases)
 2. El script instalará dependencias automáticamente
 
 ### 📝 Guía de Uso Completa
 
-#### Paso 1: Obtener tu Token de Sesión
+#### Paso 1: Obtener tus Tokens de Sesión
 
-Hay **DOS métodos** para extraer tus tokens:
+Hay **DOS métodos** para extraer los tokens necesarios:
 
-##### 🔧 Método 1: Cookie Editor (Firefox/Chrome)
+##### Firefox: Con la extensión Cookie Editor
 
 1. Instala la extensión "[Cookie Editor](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)"
 2. Ve a: **https://c.mi.com/global/**
-3. Inicia sesión con tu cuenta Mi
-4. Abre Cookie Editor (ícono en la barra)
+3. Inicia sesión con tu cuenta Mi y espera a que cargue todo el contenido
+4. Abre Cookie Editor (ícono en la barra lateral izquierda)
 5. Busca la cookie: `new_bbs_serviceToken`
 6. Copia el **valor completo** (será muy largo)
 
-##### 💻 Método 2: JavaScript Console (Cualquier Navegador)
+##### Google Chrome: Funcion Javascript
 
 1. Ve a: **https://c.mi.com/global/**
-2. Inicia sesión con tu cuenta Mi
+2. Inicia sesión con tu cuenta Mi y espera a que cargue todo tu contenido
 3. Pega este código **en la barra de direcciones (URL)**:
 
 ```javascript
