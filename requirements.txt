@@ -1,0 +1,4 @@
+ntplib==0.4.0
+pytz==2024.1
+urllib3==2.2.1
+colorama==0.4.6
