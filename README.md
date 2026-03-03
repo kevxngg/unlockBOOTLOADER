@@ -371,7 +371,8 @@ utilizar el Software sin restricciones...
 
 <div align="center">
 
-**kevxngg**
+![unnamed](https://github.com/user-attachments/assets/e6ad8e36-80b7-4f97-86fb-56fcbf84ee5f)
+
 
 [![GitHub](https://img.shields.io/badge/GitHub-kevxngg-black?style=for-the-badge&logo=github)](https://github.com/kevxngg)
 [![Facebook](https://img.shields.io/badge/Facebook-kevxngg-blue?style=for-the-badge&logo=facebook)](https://facebook.com/kevxngg)
