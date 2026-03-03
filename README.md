@@ -80,17 +80,15 @@ Hay **DOS métodos** para extraer tus tokens:
 
 1. Ve a: **https://c.mi.com/global/**
 2. Inicia sesión con tu cuenta Mi
-3. Presiona **F12** para abrir DevTools
-4. Ve a la pestaña **"Console"**
-5. Pega este código **en la barra de direcciones (URL)**:
+3. Pega este código **en la barra de direcciones (URL)**:
 
 ```javascript
 javascript :(function(){var token=document.cookie.match(/serviceToken=([^;]+)/);if(token){prompt("Copia tu token:", token[1]);}else{alert("Token no encontrado. Asegúrate de estar logueado.");}})()
 ```
 
-6. **⚠️ IMPORTANTE**: Elimina el espacio entre `javascript` y `:` 
-7. Presiona **Enter**
-8. Copia el token del popup
+4. **⚠️ IMPORTANTE**: Elimina el espacio entre `javascript` y `:` 
+5. Presiona **Enter**
+6. Copia el token del popup
 
 #### Paso 2: Crear Archivos de Configuración
 
