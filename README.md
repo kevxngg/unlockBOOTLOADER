@@ -65,6 +65,13 @@ En la **carpeta** que se creo cuando descomprimiste `unlockBOOTLOADER.zip`, crea
 token.txt
 timeshift.txt
 ```
+El archivo **token.txt** lo abriras y lo vas a editar de la siguiente forma
+```texto
+1
+2
+3
+4
+```
 
 #### Paso 2: Obtener tus Tokens de Sesión
 
@@ -112,6 +119,8 @@ Le das en **Add to Firefox**
      <img width="397" height="414" alt="image" src="https://github.com/user-attachments/assets/e8e5d781-ff30-4792-a165-e05a1f38d51e" />
    </div>
 Click derecho sobre el valor, luego le das **Ctrl + A** para selecionar todo y luego **Ctrl + C** para copiar
+
+8. Ahora pega ese **token** en el archivo **token.txt** que creaste 
 
 ##### Google Chrome: Funcion Javascript
 
