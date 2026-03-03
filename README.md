@@ -65,7 +65,7 @@ En la **carpeta** que se creo cuando descomprimiste `unlockBOOTLOADER.zip`, crea
 token.txt
 timeshift.txt
 ```
-El archivo **token.txt** lo abriras con el Bloc de Notas y lo vas a editar de la siguiente forma
+El archivo **token.txt** lo abriras con el **Bloc de Notas** y lo vas a editar de la siguiente forma
 ```texto
 1
 2
