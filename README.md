@@ -130,7 +130,7 @@ Le das en **Add to Firefox**
    
    Click derecho sobre el valor, luego le das **Ctrl + A** para selecionar todo y luego **Ctrl + C** para copiar
 
-8. Ahora vas a abrir el archivo **token.txt** y vas a pegar ese **token** en la linea 1 y 3, te deberia quedar algo asi:
+8. Ahora vas a abrir el archivo **token.txt** y vas a pegar ese **token** en la linea **1** y **3**, te deberia quedar algo asi:
 ```
 token_ejemplo_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
 2
@@ -154,25 +154,43 @@ javascript :(function(){var token=document.cookie.match(/popRunToken=([^;]+)/);i
 
 4. **⚠️ IMPORTANTE**: Elimina el espacio entre `javascript` y `:` 
 5. Presiona **Enter**
-6. Copia el token del popup
+   
+   <div align="left">
+      <img width="469" height="211" alt="image" src="https://github.com/user-attachments/assets/86ac3903-c097-45a8-a501-9a15c0634e15" />
+   </div>
+
+7. Dale **Ctrl + C** y copia el token del popup
+8. Ahora ese **token** lo vas a pegar en el archivo **token.txt** en la linea **2** y **4** y te quedaria algo asi:
+```
+token_ejemplo_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
+token_ejemplo_googleNiTl2rmQWNdB7pABjG7Ac1twOzL%2F%2BD6nbR1D%2BUwg%2BTbJ%2B8H%2
+token_ejemplo_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
+token_ejemplo_googleNiTl2rmQWNdB7pABjG7Ac1twOzL%2F%2BD6nbR1D%2BUwg%2BTbJ%2B8H%2
+```
 
 ### ⚙️ Configuración del Timeshift
 
-El `timeshift` es **CRÍTICO** para el éxito. Ajústalo según tu ubicación:
+El `timeshift` es **CRÍTICO** para el éxito. Si tienes múltiples cuentas/tokens (ej. 4 tokens), te recomendamos usar una estrategia de "ráfaga escalonada" para maximizar tus probabilidades. 
 
-| Ubicación/Conexión | Latencia Típica | Timeshift Recomendado | Notas |
-|-------------------|-----------------|----------------------|-------|
-| 🌎 América Latina (Wi-Fi) | 120-200ms | **300-320ms** | Valor por defecto |
-| 🌎 América Latina (Fibra) | 80-120ms | **280-300ms** | Conexión rápida |
-| 🌍 Europa | 150-250ms | **320-350ms** | Más lejos de Asia |
-| 🌏 Asia | 20-80ms | **240-260ms** | Cerca de servidores |
-| 🏢 Conexión Corporativa | Variable | **300-350ms** | Por seguridad |
+Pon estos 4 valores en tu archivo `timeshift.txt` (un valor por línea en el mismo orden) ajustándolos según tu ubicación:
 
-**🎯 Cómo Ajustar:**
-- Si **siempre llegas tarde** → Reduce 20ms (ej: 300 → 280)
-- Si **siempre llegas temprano** → Aumenta 20ms (ej: 300 → 320)
-- El script muestra la **latencia NTP** - úsala como referencia
+| Ubicación/Conexión | Latencia Típica | Valores Recomendados (timeshift.txt) | Notas |
+|-------------------|-----------------|--------------------------------------|-------|
+| 🌎 América Latina (Wi-Fi) | 120-200ms | **340, 320, 300, 280** | Cubre variaciones de ping por Wi-Fi |
+| 🌎 América Latina (Fibra) | 80-120ms | **300, 280, 260, 240** | Óptimo para conexiones muy rápidas |
+| 🌍 Europa | 150-250ms | **360, 340, 320, 300** | Compensa la distancia física a Asia |
+| 🌏 Asia | 20-80ms | **260, 240, 220, 200** | Valores bajos por proximidad a servidores |
+| 🏢 Conexión Corporativa | Variable | **350, 330, 310, 290** | Compensa el retraso de Firewalls/VPNs |
 
+**🎯 El mejor truco para ajustar tu estrategia:**
+Cuando ejecutes el script, observa atentamente esta línea en tu consola:
+> `⏱️ Sincronizando con time.google.com... ✓ (latencia: 290.5ms)`
+
+Utiliza ese número como tu punto central. Si la consola muestra **290ms**, deberías crear un bloque que lo rodee, por ejemplo: **310, 300, 290, 280**.
+
+**🛠️ Corrección de Errores:**
+- Si el servidor te dice "cuota agotada" pero tu respuesta llegó **antes** de las 00:00:00 → Estás disparando muy temprano. **Resta 20ms** a todo tu bloque de valores.
+- Si llegas a las 00:00:00 pero alguien te gana el puesto → Estás llegando tarde. **Suma 20ms** a todo tu bloque de valores.
 
 #### Paso 3: Ejecutar el Script
 
