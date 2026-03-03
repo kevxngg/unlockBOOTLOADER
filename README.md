@@ -65,7 +65,7 @@ En la **carpeta** que se creo cuando descomprimiste `unlockBOOTLOADER.zip`, crea
 token.txt
 timeshift.txt
 ```
-El archivo **token.txt** lo abriras y lo vas a editar de la siguiente forma
+El archivo **token.txt** lo abriras con el Bloc de Notas y lo vas a editar de la siguiente forma
 ```texto
 1
 2
@@ -129,7 +129,14 @@ Le das en **Add to Firefox**
    </div>
 Click derecho sobre el valor, luego le das **Ctrl + A** para selecionar todo y luego **Ctrl + C** para copiar
 
-8. Ahora pega ese **token** en el archivo **token.txt** que creaste 
+8. Ahora vas a abrir el archivo **token.txt** y vas a pegar ese **token** en la linea 1 y 3, te deberia quedar algo asi:
+```
+token_ejemplo_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
+2
+token_ejemplo_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
+4
+```
+Le das **Ctrl + G** y guardas
 
 ##### Google Chrome: Funcion Javascript
 
