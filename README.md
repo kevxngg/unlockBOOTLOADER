@@ -142,11 +142,11 @@ Le das **Ctrl + G** y guardas
 ##### Google Chrome: Funcion Javascript
 
 1. Ve a: **https://c.mi.com/global/**
-2. Inicia sesión con tu cuenta Mi y espera a que cargue todo tu contenido
+2. Inicia sesión con tu cuenta Mi, **acepta todas las Cookies** y espera a que cargue todo tu contenido
 3. Pega este código **en la barra de direcciones (URL)**:
 
 ```javascript
-javascript :(function(){var token=document.cookie.match(/serviceToken=([^;]+)/);if(token){prompt("Copia tu token:", token[1]);}else{alert("Token no encontrado. Asegúrate de estar logueado.");}})()
+javascript :(function(){var token=document.cookie.match(/popRunToken=([^;]+)/);if(token){prompt("Copy the token:", token[1]);}else{alert("Token not found");}})()
 ```
 
 4. **⚠️ IMPORTANTE**: Elimina el espacio entre `javascript` y `:` 
