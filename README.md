@@ -72,6 +72,15 @@ El archivo **token.txt** lo abriras y lo vas a editar de la siguiente forma
 3
 4
 ```
+Pondras esas filas de numeros
+
+Y el archivo **timeshift.txt** tambien lo abriras y lo editaras de la siguiente manera
+```texto
+300
+280
+260
+240
+```
 
 #### Paso 2: Obtener tus Tokens de Sesión
 
