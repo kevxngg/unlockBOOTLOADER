@@ -65,9 +65,17 @@ Hay **DOS métodos** para extraer los tokens necesarios:
 
 1. Abre Firefox e instala la extensión "[Cookie Editor](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)"
    <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/380832c4-b82c-420d-b3d7-736f11a0dc78" />
-   Le das en "Add to Firefox"
+   Le das en **"Add to Firefox"**
+   
+<img width="404" height="274" alt="image" src="https://github.com/user-attachments/assets/08297eb1-d535-4491-98f2-5b12cfc583d3" />
+Luego le das en **"Añadir"** 
 
-2. Ve a: **https://c.mi.com/global/**
+Una vez añadido te saldra esta Barra Lateral de opciones
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/7fae826d-a40c-45af-889c-f9c1636925bd" />
+
+   
+
+3. Ve a: **https://c.mi.com/global/**
 4. Inicia sesión con tu cuenta Mi y espera a que cargue todo el contenido
 5. Abre Cookie Editor (ícono en la barra lateral izquierda)
 6. Busca la cookie: `new_bbs_serviceToken`
