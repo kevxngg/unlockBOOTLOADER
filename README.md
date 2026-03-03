@@ -88,9 +88,18 @@ Hay **DOS métodos** para extraer los tokens necesarios:
 
 3. Ve a: **https://c.mi.com/global/**
 4. Inicia sesión con tu cuenta Mi y espera a que cargue todo el contenido
+   <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/8e8eb1db-ee62-4bf7-b665-03898716e17e" />
+
 5. Abre Cookie Editor (ícono en la barra lateral izquierda)
+   <img width="396" height="713" alt="image" src="https://github.com/user-attachments/assets/bda73b2d-5734-4f05-96be-2a974669ff31" />
+
 6. Busca la cookie: `new_bbs_serviceToken`
+   <img width="395" height="248" alt="image" src="https://github.com/user-attachments/assets/c3ae3942-0480-41aa-a428-e9445904653d" />
+   <img width="413" height="411" alt="image" src="https://github.com/user-attachments/assets/c8f79815-f26e-488a-a28d-014702e88443" />
+
 7. Copia el **valor completo** (será muy largo)
+   <img width="397" height="414" alt="image" src="https://github.com/user-attachments/assets/e8e5d781-ff30-4792-a165-e05a1f38d51e" />
+   Click derecho sobre el valor, luego le das **Ctrl + A** para selecionar todo y luego **Ctrl + C** para copiar
 
 ##### Google Chrome: Funcion Javascript
 
