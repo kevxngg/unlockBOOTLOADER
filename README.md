@@ -130,7 +130,7 @@ Le das en **Add to Firefox**
    
    Click derecho sobre el valor, luego le das **Ctrl + A** para selecionar todo y luego **Ctrl + C** para copiar
 
-8. Ahora vas a abrir el archivo **token.txt** y vas a pegar ese **token** en la linea **1** y **3**, te deberia quedar algo asi:
+8. Ahora vas a abrir el archivo **token.txt** y vas a pegar ese **token** en la linea **1** y **3**, (elimina el numero de linea) te deberia quedar algo asi:
 ```
 token_ejemplo_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
 2
@@ -160,7 +160,7 @@ javascript :(function(){var token=document.cookie.match(/popRunToken=([^;]+)/);i
    </div>
 
 7. Dale **Ctrl + C** y copia el token del popup
-8. Ahora ese **token** lo vas a pegar en el archivo **token.txt** en la linea **2** y **4** y te quedaria algo asi:
+8. Ahora ese **token** lo vas a pegar en el archivo **token.txt** en la linea **2** y **4** (elimina el numero de linea) y te quedaria algo asi:
 ```
 token_ejemplo_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
 token_ejemplo_googleNiTl2rmQWNdB7pABjG7Ac1twOzL%2F%2BD6nbR1D%2BUwg%2BTbJ%2B8H%2
@@ -192,16 +192,30 @@ Utiliza ese número como tu punto central. Si la consola muestra **290ms**, debe
 - Si el servidor te dice "cuota agotada" pero tu respuesta llegó **antes** de las 00:00:00 → Estás disparando muy temprano. **Resta 20ms** a todo tu bloque de valores.
 - Si llegas a las 00:00:00 pero alguien te gana el puesto → Estás llegando tarde. **Suma 20ms** a todo tu bloque de valores.
 
-#### Paso 3: Ejecutar el Script
+#### Paso 3: Ejecutar el Script desde Windows
 
-```bash
-# En la carpeta del script
-python unlockBOOTLOADER.py
-```
+La forma más rápida y sencilla de ejecutar el script es abriendo la consola de comandos (CMD) directamente desde la carpeta del proyecto.
+
+1. Abre el Explorador de Archivos y ve a la carpeta donde descargaste el proyecto (donde están los archivos `unlockBOOTLOADER.py`, `token.txt` y `timeshift.txt`).
+2. Haz clic en la **barra de direcciones** en la parte superior (donde se ve la ruta de la carpeta, que quedará seleccionada en azul).
+3. Borra toda esa ruta, escribe la palabra **`cmd`** y presiona la tecla **Enter**.
+   <div align="left">
+     <img width="1125" height="667" alt="image" src="https://github.com/user-attachments/assets/9a84af0a-ac0f-4be0-9d23-607ef41d27c9" />
+   </div>
+
+4. Se abrirá una ventana negra de la consola (Símbolo del sistema) ya ubicada exactamente en esa carpeta.
+   <div align="left">
+     <img width="979" height="646" alt="image" src="https://github.com/user-attachments/assets/fd0980ae-068e-4cb5-b99d-761d8f499703" />
+   </div>
+
+5. Para iniciar el programa, simplemente escribe el siguiente comando y presiona **Enter**:
+
+   ```bash
+   python unlockBOOTLOADER.py
 
 #### Paso 4: Seguir las Instrucciones
 
-1. Ingresa el **número de línea** del token (generalmente `1`)
+1. Ingresa el **número de línea** del token
 2. El script mostrará:
    - ✅ Estado de la cuenta
    - ⏰ Sincronización NTP
