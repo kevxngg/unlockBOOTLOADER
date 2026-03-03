@@ -46,6 +46,8 @@ Utiliza:
 ```bash
 - Python 3.7 o superior
 - pip (incluido con Python)
+- Nevegador Firefox
+- Navegador Google Chrome
 - Conexión a Internet estable
 ```
 
