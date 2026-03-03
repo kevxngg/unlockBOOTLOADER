@@ -57,7 +57,7 @@ Utiliza:
 
 ### 📝 Guía de Uso Completa
 
-#### Paso 1: Crear Archivos de Configuración
+## Paso 1: Crear Archivos de Configuración
 
 En la **carpeta** que se creo cuando descomprimiste `unlockBOOTLOADER.zip`, crea estos dos archivos:
 
@@ -82,7 +82,7 @@ Y el archivo **timeshift.txt** tambien lo abriras y lo editaras de la siguiente 
 240
 ```
 
-#### Paso 2: Obtener tus Tokens de Sesión
+## Paso 2: Obtener tus Tokens de Sesión
 
 Hay **DOS métodos** para extraer los tokens necesarios:
 
@@ -192,7 +192,7 @@ Utiliza ese número como tu punto central. Si la consola muestra **290ms**, debe
 - Si el servidor te dice "cuota agotada" pero tu respuesta llegó **antes** de las 00:00:00 → Estás disparando muy temprano. **Resta 20ms** a todo tu bloque de valores.
 - Si llegas a las 00:00:00 pero alguien te gana el puesto → Estás llegando tarde. **Suma 20ms** a todo tu bloque de valores.
 
-#### Paso 3: Ejecutar el Script desde Windows
+## Paso 3: Ejecutar el Script desde Windows
 
 La forma más rápida y sencilla de ejecutar el script es abriendo la consola de comandos (CMD) directamente desde la carpeta del proyecto.
 
@@ -213,7 +213,7 @@ La forma más rápida y sencilla de ejecutar el script es abriendo la consola de
    ```bash
    python unlockBOOTLOADER.py
 
-#### Paso 4: Seguir las Instrucciones
+## Paso 4: Seguir las Instrucciones
 
 1. Ingresa el **número de línea** del token
 2. El script mostrará:
