@@ -259,9 +259,18 @@ Generalmente **uno por día** por cuenta. Si fallas, espera 24 horas. Algunos us
 </details>
 
 <details>
-<summary><b>¿Funciona en todos los dispositivos Xiaomi?</b></summary>
+<summary><b>¿Funciona en todos los dispositivos Xiaomi / Redmi / POCO?</b></summary>
 
-Sí, siempre que el dispositivo sea elegible para desbloqueo según las políticas de Xiaomi. Verifica en la web oficial de Mi Unlock.
+Sí, pero debido a las **nuevas políticas de seguridad de Xiaomi (HyperOS)**, debes cumplir requisitos muy estrictos y seguir un orden específico:
+
+1. **Antigüedad de la cuenta:** Tu Cuenta Mi debe haber sido creada hace **más de 30 días** y estar activa de forma continua.
+2. **Región Global:** Este script aplica para cuentas y dispositivos de la región **Global**. (La ROM China tiene un sistema diferente que requiere Nivel 5 en su foro).
+3. **Orden correcto del proceso:**
+   * **Paso 1 (Autorización):** Usas este script para conseguir el cupo en los servidores de Xiaomi a la medianoche.
+   * **Paso 2 (Vinculación):** Una vez el script te marque "🎉 ¡AUTORIZACIÓN CONCEDIDA!", vas a tu teléfono (*Ajustes > Opciones de Desarrollador > Estado de Mi Unlock*) y **vinculas** tu cuenta al dispositivo.
+   * **Paso 3 (Desbloqueo):** Usas la herramienta oficial *Mi Unlock Tool* en tu PC para realizar el desbloqueo físico del bootloader (es posible que la herramienta te pida esperar 72 horas o más después de vincular).
+
+Si no tienes los 30 días en tu cuenta o intentas vincular el teléfono antes de conseguir la autorización con el script, los servidores de Xiaomi te rechazarán.
 </details>
 
 <details>
