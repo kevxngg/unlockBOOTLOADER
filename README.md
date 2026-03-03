@@ -148,6 +148,9 @@ Le das **Ctrl + G** y guardas
 ```javascript
 javascript :(function(){var token=document.cookie.match(/popRunToken=([^;]+)/);if(token){prompt("Copy the token:", token[1]);}else{alert("Token not found");}})()
 ```
+<div align="left">
+  <img width="1411" height="853" alt="image" src="https://github.com/user-attachments/assets/67f00ff1-6297-4648-91ac-ac04a7b1f7cf" />
+</div>
 
 4. **⚠️ IMPORTANTE**: Elimina el espacio entre `javascript` y `:` 
 5. Presiona **Enter**
