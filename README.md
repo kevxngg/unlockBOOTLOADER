@@ -196,7 +196,7 @@ Utiliza ese número como tu punto central. Si la consola muestra **290ms**, debe
 
 La forma más rápida y sencilla de ejecutar el script es abriendo la consola de comandos (CMD) directamente desde la carpeta del proyecto.
 
-1. Abre el Explorador de Archivos y ve a la carpeta donde descargaste el proyecto (donde están los archivos `unlockBOOTLOADER.py`, `token.txt` y `timeshift.txt`).
+1. Abre el Explorador de Archivos y ve a la carpeta donde descargaste y descomprimiste el proyecto (donde están los archivos `unlockBOOTLOADER.py`, `token.txt` y `timeshift.txt`).
 2. Haz clic en la **barra de direcciones** en la parte superior (donde se ve la ruta de la carpeta, que quedará seleccionada en azul).
 3. Borra toda esa ruta, escribe la palabra **`cmd`** y presiona la tecla **Enter**.
    <div align="left">
@@ -212,6 +212,15 @@ La forma más rápida y sencilla de ejecutar el script es abriendo la consola de
 
    ```bash
    python unlockBOOTLOADER.py
+**💡 TIP PRO: Ejecución Múltiple (Estrategia de 4 Tokens)**
+> 
+> Ya que tienes 4 tokens configurados en tu archivo `token.txt` y 4 valores de latencia escalonados en `timeshift.txt`, puedes maximizar tus probabilidades de éxito ejecutándolos al mismo tiempo:
+> 
+> 1. Repite los pasos 1 al 3 para abrir **4 ventanas de CMD distintas**.
+> 2. Escribe `python unlockBOOTLOADER.py` y presiona Enter en cada una de ellas.
+> 3. Cuando el script te solicite el **"Número de línea del token"**, ingresa `1` en la primera ventana, `2` en la segunda, `3` en la tercera y `4` en la cuarta.
+> 
+> De esta manera, tendrás 4 procesos corriendo en paralelo esperando la medianoche. El script disparará las 4 peticiones automáticas con los 4 tiempos de desfase diferentes que configuraste, cubriendo perfectamente todos los márgenes posibles de tu conexión y asegurando que alguna llegue en el milisegundo exacto.
 
 ## Paso 4: Seguir las Instrucciones
 
