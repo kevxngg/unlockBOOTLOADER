@@ -212,11 +212,13 @@ La forma más rápida y sencilla de ejecutar el script es abriendo la consola de
 
    ```bash
    python unlockBOOTLOADER.py
-**💡 TIP PRO: Ejecución Múltiple (Estrategia de 4 Tokens)**
+   ```
+   
+> **💡 TIP PRO: Ejecución Múltiple (Estrategia de 4 Tokens)**
 > 
 > Ya que tienes 4 tokens configurados en tu archivo `token.txt` y 4 valores de latencia escalonados en `timeshift.txt`, puedes maximizar tus probabilidades de éxito ejecutándolos al mismo tiempo:
 > 
-> 1. Repite los pasos 1 al 3 para abrir **4 ventanas de CMD distintas**.
+> 1. Repite el [Paso 3](https://github.com/kevxngg/unlockBOOTLOADER/blob/main/README.md#paso-3-ejecutar-el-script-desde-windows) para abrir **4 ventanas de CMD distintas**.
 > 2. Escribe `python unlockBOOTLOADER.py` y presiona Enter en cada una de ellas.
 > 3. Cuando el script te solicite el **"Número de línea del token"**, ingresa `1` en la primera ventana, `2` en la segunda, `3` en la tercera y `4` en la cuarta.
 > 
