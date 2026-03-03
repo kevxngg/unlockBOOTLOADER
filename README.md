@@ -73,44 +73,44 @@ Hay **DOS métodos** para extraer los tokens necesarios:
 ##### Firefox: Con la extensión Cookie-Editor
 
 1. Abre Firefox e instala la extensión "[Cookie Editor](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)"
-   <div align="right">
+   <div align="left">
      <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/380832c4-b82c-420d-b3d7-736f11a0dc78" />
    </div>
    Le das en **Add to Firefox**
-   <div align="right">
+   <div align="left">
      <img width="404" height="274" alt="image" src="https://github.com/user-attachments/assets/08297eb1-d535-4491-98f2-5b12cfc583d3" />
    </div>
    Luego le das en **Añadir**
 
    Una vez añadido te saldra esta **Barra Lateral** de opciones
-   <div align="right">
+   <div align="left">
      <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/7fae826d-a40c-45af-889c-f9c1636925bd" />
    </div>
 
 3. Ve a: **https://c.mi.com/global/**
 
 4. Inicia sesión con tu cuenta Mi y espera a que cargue todo el contenido
-   <div align="right">
+   <div align="left">
      <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/8e8eb1db-ee62-4bf7-b665-03898716e17e" />
    </div>
 
 5. Abre Cookie Editor (ícono en la barra lateral izquierda)
-   <div align="right">
+   <div align="left">
      <img width="396" height="713" alt="image" src="https://github.com/user-attachments/assets/bda73b2d-5734-4f05-96be-2a974669ff31" />
    </div>
 
 6. Busca la cookie: `new_bbs_serviceToken`
-   <div align="right">
+   <div align="left">
      <img width="395" height="248" alt="image" src="https://github.com/user-attachments/assets/c3ae3942-0480-41aa-a428-e9445904653d" />
      <br><br>
      <img width="413" height="411" alt="image" src="https://github.com/user-attachments/assets/c8f79815-f26e-488a-a28d-014702e88443" />
    </div>
 
 7. Copia el **valor completo** (será muy largo)
-   <div align="right">
+   <div align="left">
      <img width="397" height="414" alt="image" src="https://github.com/user-attachments/assets/e8e5d781-ff30-4792-a165-e05a1f38d51e" />
    </div>
-Click derecho sobre el valor, luego le das **Ctrl + A** para selecionar todo y luego **Ctrl + C** para copiar
+  Click derecho sobre el valor, luego le das **Ctrl + A** para selecionar todo y luego **Ctrl + C** para copiar
 
 ##### Google Chrome: Funcion Javascript
 
