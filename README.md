@@ -127,7 +127,8 @@ Le das en **Add to Firefox**
    <div align="left">
      <img width="397" height="414" alt="image" src="https://github.com/user-attachments/assets/e8e5d781-ff30-4792-a165-e05a1f38d51e" />
    </div>
-Click derecho sobre el valor, luego le das **Ctrl + A** para selecionar todo y luego **Ctrl + C** para copiar
+   
+   Click derecho sobre el valor, luego le das **Ctrl + A** para selecionar todo y luego **Ctrl + C** para copiar
 
 8. Ahora vas a abrir el archivo **token.txt** y vas a pegar ese **token** en la linea 1 y 3, te deberia quedar algo asi:
 ```
