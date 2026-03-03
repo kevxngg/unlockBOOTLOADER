@@ -86,7 +86,7 @@ Y el archivo **timeshift.txt** tambien lo abriras y lo editaras de la siguiente 
 
 Hay **DOS métodos** para extraer los tokens necesarios:
 
-##### Firefox: Con la extensión Cookie-Editor
+## Firefox: Con la extensión Cookie-Editor
 
 1. Abre Firefox e instala la extensión "[Cookie Editor](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)"
    <div align="left">
@@ -139,7 +139,7 @@ token_ejemplo_firefox4Gf22VTTk5JjpZa8%2FxhO6XTUVNKLEMfatx2Uovt877noKGTU7%2Fjvx%
 ```
 Le das **Ctrl + G** y guardas
 
-##### Google Chrome: Funcion Javascript
+## Google Chrome: Funcion Javascript
 
 1. Ve a: **https://c.mi.com/global/**
 2. Inicia sesión con tu cuenta Mi, **acepta todas las Cookies** y espera a que cargue todo tu contenido
