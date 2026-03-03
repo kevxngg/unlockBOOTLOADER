@@ -57,7 +57,39 @@ Utiliza:
 
 ### 📝 Guía de Uso Completa
 
-#### Paso 1: Obtener tus Tokens de Sesión
+#### Paso 1: Crear Archivos de Configuración
+
+En la **misma carpeta** que `unlockBOOTLOADER.py`, crea:
+
+##### 📄 token.txt
+```
+tu_token_muy_largo_aqui_A1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P6Q7R8S9T0U1V2W3X4Y5Z6
+```
+*Una línea por token. Si tienes múltiples cuentas, pon un token por línea.*
+
+##### 📄 timeshift.txt
+```
+300
+```
+*Valor en milisegundos. Ver [tabla de configuración](#️-configuración-del-timeshift).*
+
+#### Paso 3: Ejecutar el Script
+
+```bash
+# En la carpeta del script
+python unlockBOOTLOADER.py
+```
+
+#### Paso 4: Seguir las Instrucciones
+
+1. Ingresa el **número de línea** del token (generalmente `1`)
+2. El script mostrará:
+   - ✅ Estado de la cuenta
+   - ⏰ Sincronización NTP
+   - 📊 Countdown hasta medianoche Pekín
+   - 🚀 Resultado de las peticiones
+
+#### Paso 2: Obtener tus Tokens de Sesión
 
 Hay **DOS métodos** para extraer los tokens necesarios:
 
@@ -96,38 +128,6 @@ javascript :(function(){var token=document.cookie.match(/serviceToken=([^;]+)/);
 4. **⚠️ IMPORTANTE**: Elimina el espacio entre `javascript` y `:` 
 5. Presiona **Enter**
 6. Copia el token del popup
-
-#### Paso 2: Crear Archivos de Configuración
-
-En la **misma carpeta** que `unlockBOOTLOADER.py`, crea:
-
-##### 📄 token.txt
-```
-tu_token_muy_largo_aqui_A1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P6Q7R8S9T0U1V2W3X4Y5Z6
-```
-*Una línea por token. Si tienes múltiples cuentas, pon un token por línea.*
-
-##### 📄 timeshift.txt
-```
-300
-```
-*Valor en milisegundos. Ver [tabla de configuración](#️-configuración-del-timeshift).*
-
-#### Paso 3: Ejecutar el Script
-
-```bash
-# En la carpeta del script
-python unlockBOOTLOADER.py
-```
-
-#### Paso 4: Seguir las Instrucciones
-
-1. Ingresa el **número de línea** del token (generalmente `1`)
-2. El script mostrará:
-   - ✅ Estado de la cuenta
-   - ⏰ Sincronización NTP
-   - 📊 Countdown hasta medianoche Pekín
-   - 🚀 Resultado de las peticiones
 
 ### ⚙️ Configuración del Timeshift
 
